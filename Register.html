@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>register</title>
+</head>
+<body>
+    <header class="Emcabezado">
+        <div id="titulo">SOLO LEVELING</div>
+    <nav style="color: rgb(111, 100, 150);;">
+            <ul style="text-align: center;">
+                <li class="Opciones"><a href="./Solo Leveling.html">HOME</a></li>
+                <li class="Opciones"><a href="./clientes.html">CLIENTES</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div style="background-color: black; color:white; text-align:center;">
+            <span>EL QUE HACE LO QUE QUIERE HACER, ESE ES EL REY.</span>
+       </div>
+          <br>
+         <form action="" method="get" name="Registro">
+            <h1 style="text-align:center;">REGISTRAR</h1>
+            <label for=""><strong>NOMBRE:</strong></label>
+            <input type="text" name="NOMBRE" required>
+            <br><br>
+            <label for=""><STrong>APELLIDO:</STrong></label>
+            <input type="text" name="APELLIDO" maxlength="10">
+            <br><br>
+            <label for=""><strong>CLAVE:</strong></label>
+            <input type="password" name="CLAVE" required>
+            <br><br>
+            <label for=""><strong>CORREO:</strong></label>
+            <input type="email" name="CORREO" required>
+            <br><br>
+            <label for=""><strong>SEXO:</strong></label>
+            <select name="SEXO" id="">
+                <option value="">seleccionar</option>
+                <option value="1">Hombre</option>
+                <option value="2">Mujer</option>
+                <option value="3">Indefinido</option>
+                <option value="4">Prefiero no decirlo</option>
+            </select>
+            <br><br>
+            <label for=""><strong>FECHA DE NACIMIENTO:</strong></label>
+            <input type="date" name="brithday">
+            <br><br>
+            <label for=""><strong>ESTADO CIVIL:</strong></label>
+            <input type="radio" name="ESTADO CIVIL">CASADO/A
+            <input type="radio" name="ESTADO CIVIL">SOLTERO/A
+            <input type="radio" name="ESTADO CIVIL">VIUDO/A
+            <br><br>
+            <input type="checkbox" name="aceptar"> <label for="">ACEPTA LAS POLITICAS DE PRIVACIDAD</label> 
+            <br><br>
+            <input type="checkbox" name="copia de datos" id=""> <label for="">RECIBIR COPIA DE DATOS AL CORREO</label>
+            <br><br>
+            <input type="submit" value="REGISTRAR">
+            <input type="reset" value="BORRAR">
+
+         </form>
+         <br><br>
+    </main>
+</body>
+</html>

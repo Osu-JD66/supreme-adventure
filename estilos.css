@@ -1,0 +1,111 @@
+/*Estilos globales*/
+body{
+    margin: 0;
+}
+/*HEADER*/
+.Emcabezado{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/814/499/non_2x/light-purple-pattern-with-lines-triangles-vector.jpg");
+    position: ;
+    top: 0;
+    z-index: 1000;
+}
+#titulo{
+    text-align: center;color: rgb(64, 47, 133);
+    text-shadow: 20px;
+    font-size: 60px;
+    margin: 0;
+}
+ul{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.Opciones{
+    background-color: black;
+    display: inline-block;
+    padding: 16px;
+    border:solid palevioletred 
+}
+/*MAIN*/
+main{
+    background: url("https://i0.wp.com/www.hanamidango.com/wp-content/uploads/2021/06/SOLO-LEVELING-13-Hanami-Dango-e1623430483483.png?fit=1593%2C1027&ssl=1")no-repeat;
+    background-size: cover;
+}
+#banner{
+    height: 500px;
+    background-image: url("https://as01.epimg.net/meristation/imagenes/2022/07/04/noticias/1656945163_769867_1656945885_noticia_normal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+}
+h3{
+    background-color: black;
+    color:  rgb(111, 100, 150);
+    padding: 7px;
+}
+#Trama{
+    background-color: black; height: 20%;
+    color:  rgb(111, 100, 150);
+    font-size: 20px;
+    text-align: justify;
+    padding:0 6px;
+}
+.imagen1{
+    background-size: contain;
+    height: 400px;
+}
+.articulo{
+    background-color: black;
+}   
+.noticia{
+    color:rgb(111, 100, 150);
+    padding: 0 10px;
+}
+/*footer*/
+footer{
+    background-image: url("./img/pngtree-galaxy-blue-and-purple-background-image_447543.jpg");  
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 2px;
+    display: grid;
+    grid-template-areas: "co1 co2 co3";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.co1{
+    grid-area: co1;
+    margin: 0;
+    border-right: solid 3px black;
+}
+.co2{
+    grid-area: co2;
+    margin: 0;
+    border-right: solid 3px black;
+}
+.co3{
+    grid-area: co3;
+    margin: 0;
+}
+h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+p{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+/*clientes*/
+form{
+    text-align: center;
+    padding: 10px;
+    border:solid palevioletred 3px; 
+    border-radius: 15px;
+    margin:0 20%;
+    background-color: black;
+    color:rgb(111, 100, 150);
+    box-shadow: 5px 6px 16px 7px purple;
+
+}
